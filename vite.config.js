@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/your-repo-name/', // 👈 exactly this
+  base: '/', // ✅ This should be exactly like this
 });
